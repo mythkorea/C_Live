@@ -12,4 +12,5 @@ public class Session {
 	public static String get(String key) {
 		return datas.get(key);
 	}
+	
 }

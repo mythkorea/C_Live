@@ -7,7 +7,7 @@ public class Index {
 		System.out.println("2021년 코로나 백신 프로그램");
 		Scanner sc = new Scanner(System.in);
 		while(true) {
-			System.out.println("1. 회원가입\n2.회원가입수정\n3.로그인\n4.나가기");
+			System.out.println("1.회원가입\n2.회원가입수정\n3.로그인\n4.나가기");
 			int choice = sc.nextInt();
 			
 			//Controller

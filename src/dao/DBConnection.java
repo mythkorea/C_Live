@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DBConnection {
 	static Connection conn;
 	//다리를 짓기위한 설계도
-	static String driver = "";
+	static String driver = "oracle.jdbc.driver.OracleDriver";;
 	//다리를 지을 목표지점
-	static String url = "https://corona-live.com/";
+	static String url = "jdbc:oracle:thin:@localhost:1521:xe";
 	
 	//오라클 계정에 로그인하기 위한 정보들
 	static String user = "web";
@@ -31,6 +31,10 @@ public class DBConnection {
 		}
 		return conn;
 	}
+//	public static void setString(int a ,String b) {
+//		
+//	}
+	
 }
 
 

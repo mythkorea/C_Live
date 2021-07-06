@@ -2,9 +2,7 @@ package view;
 
 import java.util.Scanner;
 
-import dao.SignUpDAO;
 import dao.UserDAO;
-import dto.SignUpDTO;
 import dto.UserDTO;
 
 public class JoinView {
@@ -37,8 +35,8 @@ public class JoinView {
 			System.out.print("주소 : ");
 			sc = new Scanner(System.in);
 			String addr = sc.nextLine();
-			System.out.print("이메일 : ");
 			
+			System.out.print("이메일 : ");
 			sc = new Scanner(System.in);
 			String email = sc.next();
 			

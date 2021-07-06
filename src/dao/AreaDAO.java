@@ -1,5 +1,5 @@
 package dao;
 
-public class AreaDAO extends AreaDAO {
+public class AreaDAO {
 
 }
